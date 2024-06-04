@@ -1,0 +1,56 @@
+header {
+    background-color: #0B1C51;
+    margin-bottom: 40px;
+    
+}
+header h1 {
+    font-size: 52px;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0 20px 0 0;
+    padding-bottom: 20px;
+}
+
+header nav a{
+    color: white;
+    display:flex;
+    text-decoration: none;
+    font-family: Montserrat;
+    flex-direction: row;
+    margin: 0 20px 0 0;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+header nav a:last-child{
+    margin-right: 0;
+}
+
+
+
+@media all and (min-width: 600px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px 0 0;
+
+    }
+
+    header h1 {
+        font-size: 48px;
+        padding-left: 20px;
+    }
+
+    header nav {
+        display:flex;
+        align-items: center;
+      }
+}
